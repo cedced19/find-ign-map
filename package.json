@@ -1,0 +1,29 @@
+{
+  "name": "find-ign-map",
+  "version": "1.0.0",
+  "description": "A tool to get linked IGN map for a GPS point.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedced19/find-ign-map.git"
+  },
+  "keywords": [
+    "ign",
+    "maps",
+    "carte",
+    "associée",
+    "linked"
+  ],
+  "author": "Cédric JUNG <cedced19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedced19/find-ign-map/issues"
+  },
+  "homepage": "https://github.com/cedced19/find-ign-map#readme",
+  "dependencies": {
+    "point-in-polygon": "^1.0.1"
+  }
+}

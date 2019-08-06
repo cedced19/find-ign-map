@@ -12,12 +12,12 @@ parser.parseString(dataFile, function (err, result) {
     data.forEach(function (el) {
         var item = {
             code: el.name[0],
-            descripion: el.description[0]
+            description: el.description[0]
         }
         var meta = el.ExtendedData[0].SchemaData[0].SimpleData;
         item.editDate = Number(meta[0]._);
         item.category = meta[1]._;
-        item.date =  Date.parse(meta[2]._)
+        item.date =  Date.parse(meta[2]._);
         if (el.hasOwnProperty('Polygon')) {
             var coordinates = [];
             
