@@ -1,0 +1,11 @@
+{
+  "name": "convert-to-json",
+  "version": "0.0.0",
+  "description": "A tool to convert `kml` file which contains **1/25 000** scale maps data to `json` format.",
+  "main": "index.js",
+  "author": "Cédric JUNG <cedced19@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
