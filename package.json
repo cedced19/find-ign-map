@@ -1,6 +1,6 @@
 {
   "name": "find-ign-map",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A tool to get linked IGN map for a GPS point.",
   "main": "index.js",
   "scripts": {

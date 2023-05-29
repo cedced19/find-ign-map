@@ -1,6 +1,6 @@
 var inside = require('point-in-polygon');
 
-var ign = require('./convert-to-json/ta25k.json');
+var ign = require('./maps.json');
 
 module.exports = function (point) {
     var result = []
