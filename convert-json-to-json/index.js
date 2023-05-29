@@ -5,7 +5,7 @@ const output = [];
 for (k in input.features) {
     obj = {}
     obj.category = input.features[k].properties.theme_title || '';
-    obj.description = input.features[k].properties.name_complement || '';
+    obj.description = input.features[k].properties.name.replace(input.features[k].properties.code_article,'').replace(' - ', '') + ' ' + (input.features[k].properties.name_complement || '');
     obj.code = input.features[k].properties.code_article || '';
     date = new Date(input.features[k].properties.updated_at)
     obj.editDate = date.getFullYear();
